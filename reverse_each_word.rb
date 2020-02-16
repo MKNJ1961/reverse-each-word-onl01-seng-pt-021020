@@ -11,7 +11,8 @@ def reverse_each_word(string)
   new_array = words_array.each {|word| word.reverse}
   new_array.join(" ")
 end
-endlearn
+end
+
 
 
 
