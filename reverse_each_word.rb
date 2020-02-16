@@ -1,29 +1,9 @@
-# def reverse_each_word(string)
-#   words_array = sentence1.split(" ")
-#   new_array = []
-#   new_array = words_array.collect {|word| word.reverse }
-#   new_array.join(" ")
-# end
-
-
 def reverse_each_word(string)
-  Array.new 
-  loop = string.length
-  word = ''
-  while loop > 0 
-  loop -= 1
-  word += string[loop]
+  words_array = sentence1.split(" ")
+  new_array = []
+  new_array = words_array.collect {|word| word.reverse }
+  new_array.join(" ")
 end
-end
-
-def sentence1
-  puts "Hello there, and how are you?"
-end
-
-def sentence2
-  puts "Hi again, just making sure it's reversed!"
-end
-
 
 
 
