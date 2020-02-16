@@ -3,7 +3,7 @@ require 'pry'
 def reverse_each_word(string)
   words_array = string.split(" ")
   binding.pry
-   words_array.collect {|word| word.reverse }
+   words_array.collect {|word| word.reverse }.join
   new_array.join(" ")
 end
 
